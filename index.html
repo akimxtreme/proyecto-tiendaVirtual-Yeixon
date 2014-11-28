@@ -1,0 +1,511 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<title>Tienda Virtual</title>
+<link rel="shortcut icon" href="images/mini_logo.png"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body class="blanco">
+<div class="contenedor">
+    <div id="header">
+        <!-- jQuery handles to place the header background images -->
+        <div id="headerimgs">
+            <div id="headerimg1" class="headerimg"></div>
+            <div id="headerimg2" class="headerimg"></div>
+        </div>
+        <!-- Top navigation on top of the images -->
+        <div id="nav-outer">
+            <div id="navigation">
+                <div id="search">
+                    <form>
+                        <input type="text" id="searchtxt" placeholder="Indique.." />
+                        <input type="submit"  value="Buscar" id="searchbtn" />
+                    </form>
+                </div>
+                <div id="menu">
+                    <ul>
+                      	<li><a class="menu" href="http://www.marcofolio.net/">Belleza</a>
+                        	<ul class="submenu">
+                            <div class="submenu">
+                            	<li class="submenu">Pinzas
+                                	<ul>
+                                    	<li><a href="#">* Pinzas de Ceja &raquo;</a></li>
+                                    </ul>
+                                
+                                </li>
+                                
+                                <li class="submenu">Cepillos
+                                	<ul>
+                                    	<li><a href="#">* Cepillos para elCabello &raquo;</a></li>
+                                    </ul>
+                                </li>
+                                
+                                <li class="submenu">Esponjas
+                                	<ul>
+                                    	<li><a href="#">* Esponjas para Maquillaje &raquo;</a></li>
+                                        <li><a href="#">* Esponjas  &raquo;</a></li>
+                                    </ul>
+                                </li>
+                                
+                                <li class="submenu">Tijeras
+                                	<ul>
+                                    	<li><a href="#">* Tijeras para Uñas &raquo;</a></li>
+                                    </ul>
+                                
+                                </li>
+                                
+                                <li class="submenu">Limas
+                                	<ul>
+                                    	<li><a href="#">* Limas para Pedicure &raquo;</a></li>
+                                    </ul>
+                                </li>
+                                
+                            </div>
+                            <div class="imagen">
+                            	
+                            	<img src="images/belleza.jpg" alt="Artículos de Belleza" title="Articulos de Belleza"/>
+                                <h1>Belleza</h1>
+                            </div>
+                            </ul>
+                       	</li>
+                        <li><a class="menu" href="http://www.marcofolio.net/">Hogar</a>
+                        	<ul class="submenu">
+                            <div class="submenu">
+                            	<li class="submenu">Tazas
+                                	<ul>
+                                    	<li><a href="#">* Tazas Artesanales &raquo;</a></li>
+                                        <li><a href="#">* Tazas en General &raquo;</a></li>
+                                    </ul>
+                                
+                                </li>
+                                
+                                <li class="submenu noLine">Platos
+                                	<ul>
+                                    	<li><a href="#">* Platos Decorados &raquo;</a></li>
+                                        <li><a href="#">* Platos en General &raquo;</a></li>
+                                    </ul>
+                                
+                                </li>
+                                
+                                <li class="submenu">Vasos
+                                	<ul>
+                                    	<li><a href="#">* Vasos en General &raquo;</a></li>
+                                   </ul>
+                                </li>
+                                
+                                <li class="submenu">Tazones
+                                	<ul>
+                                    	<li><a href="#">* Tazones en General &raquo;</a></li>
+                                   </ul>
+                                </li>
+                                
+                            </div>
+                            <div class="imagen">
+                            	
+                            	<img src="images/hogar.jpg"/>
+                                <h1>Hogar</h1>
+                            </div>
+                            </ul>
+                       	</li>
+                        
+                        <li><a class="menu" href="#">Decoración</a></li>
+                        <li><a class="menu" href="#">Electrodomésticos</a>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Slideshow controls -->
+        <div id="headernav-outer">
+            <div id="headernav">
+                <div id="back" class="btn"></div>
+                <div id="control" class="btn"></div>
+                <div id="next" class="btn"></div>
+            </div>
+        </div>
+        <!-- jQuery handles for the text displayed on top of the images -->
+        <div id="headertxt">
+            <p class="caption">
+                <span id="firstline"></span>
+                <a href="#" id="secondline"></a>
+            </p>
+            <p class="pictured">
+                
+                <a href="#" id="pictureduri"></a>
+            </p>
+        </div>
+    </div>
+    <div id="content">
+    	<div class="catalogo">
+        	<h1>Taza</h1>
+            <img src="images/articulos/1_taza.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Taza Hogar</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Taza</h1>
+            <img src="images/articulos/2_taza.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Taza Hogar</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Taza</h1>
+            <img src="images/articulos/3_taza.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Taza Hogar</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Taza</h1>
+            <img src="images/articulos/4_taza.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Taza Hogar</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Taza</h1>
+            <img src="images/articulos/5_taza.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Taza Hogar</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Taza</h1>
+            <img src="images/articulos/6_taza.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Taza Hogar</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Taza</h1>
+            <img src="images/articulos/7_taza.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Taza Hogar</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Taza</h1>
+            <img src="images/articulos/14_taza.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Taza Hogar</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Taza</h1>
+            <img src="images/articulos/16_taza.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Taza Hogar</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Taza</h1>
+            <img src="images/articulos/17_taza.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Taza Hogar</h4>
+            </div>
+        </div>
+        
+        <div class="catalogo">
+        	<h1>Tazón</h1>
+            <img src="images/articulos/18_tazon.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Tazón Hogar</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Vasos</h1>
+            <img src="images/articulos/15_vaso.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Vasos Hogar</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Florero</h1>
+            <img src="images/articulos/8_florero.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Florero Decoración</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Florero</h1>
+            <img src="images/articulos/9_florero.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Florero Decoración</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Plato</h1>
+            <img src="images/articulos/10_plato.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Plato Hogar</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Plato</h1>
+            <img src="images/articulos/11_plato.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Plato Hogar</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Plato</h1>
+            <img src="images/articulos/12_plato.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Plato Hogar</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Plato</h1>
+            <img src="images/articulos/13_plato.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Plato Hogar</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Pinza de Ceja</h1>
+            <img src="images/articulos/19_pinzaDeCeja.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Pinza de Ceja Belleza</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Pinza de Ceja</h1>
+            <img src="images/articulos/20_pinzaDeCeja.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Pinza de Ceja Belleza</h4>
+            </div>
+        </div>
+        
+        <div class="catalogo">
+        	<h1>Tijera de Uñas</h1>
+            <img src="images/articulos/21_tijeraDeUnia.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Tijera de Uñas</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Cucharas de Plástico</h1>
+            <img src="images/articulos/22_cucharaPlastico.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Cucharas de Plástico Hogar</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Esponja de Maquillaje</h1>
+            <img src="images/articulos/23_esponjaMaquillaje.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Esponja de Maquillaje Belleza</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Lima de Pedicure</h1>
+            <img src="images/articulos/24_limaPedicure.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Lima de Pidecure Belleza</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Tijera de Uñas</h1>
+            <img src="images/articulos/24_tijeraDeUnia.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Tijera de Uñas Belleza</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Esponja</h1>
+            <img src="images/articulos/31_esponja.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Esponja Belleza</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Esponja</h1>
+            <img src="images/articulos/32_esponja.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Esponja Belleza</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Esponja</h1>
+            <img src="images/articulos/33_esponja.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Esponja Belleza</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Cepillo para el Cabello</h1>
+            <img src="images/articulos/26_cepillo.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Cepillo para el Cabello Belleza</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Cepillo para el Cabello</h1>
+            <img src="images/articulos/27_cepillo.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Cepillo para el Cabello Belleza</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Cepillo para el Cabello</h1>
+            <img src="images/articulos/28_cepillo.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Cepillo para el Cabello Belleza</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Cepillo para el Cabello</h1>
+            <img src="images/articulos/29_cepillo.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Cepillo para el Cabello Belleza</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Cepillo para el Cabello</h1>
+            <img src="images/articulos/30_cepillo.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Cepillo para el Cabello Belleza</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Papelera de Oficina</h1>
+            <img src="images/articulos/38_papelera.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Papelera de Oficina</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Papelera de Oficina</h1>
+            <img src="images/articulos/39_papelera.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Papelera de Oficina</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Ventilador</h1>
+            <img src="images/articulos/34_ventilador.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Ideales para el Hogar</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Ventilador</h1>
+            <img src="images/articulos/35_ventilador.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Ideales para el Hogar</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Ventilador</h1>
+            <img src="images/articulos/36_ventilador.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Ideales para el Hogar</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Ventilador</h1>
+            <img src="images/articulos/37_ventilador.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Ideales para el Hogar</h4>
+            </div>
+        </div>
+        <div class="catalogo">
+        	<h1>Ventilador</h1>
+            <img src="images/articulos/40_ventilador.jpg"/>
+            <div class="detalle">
+               	<h2>2000</h2>
+            	<h3>Detalles &raquo;</h3>
+           		<h4 class="descripcion">Ideales para el Hogar</h4>
+            </div>
+        </div>
+        
+        
+        
+ 
+    </div>
+</div>
+</body>
+</html>
